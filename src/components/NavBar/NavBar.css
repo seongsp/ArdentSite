@@ -28,6 +28,14 @@
     color: #A2ECF3;
 }
 
+.link-active {
+    color: #A2ECF3;
+}
+
+.link {
+
+}
+
 .dropdown {
     position: relative;
     display: inline-block;

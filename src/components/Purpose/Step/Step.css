@@ -1,0 +1,26 @@
+.step {
+    font-family: "DIN Next Light", sans-serif;
+    text-align: left;
+}
+
+.step-id {
+    font-size: 250px;
+    font-weight: lighter;
+    color: #ccccca;
+    margin: 0;
+}
+
+.step-line {
+    color: black;   
+}
+
+.step-title {
+    font-size: 40px;
+    color: #3bb1ff;
+    font-weight: lighter;
+}
+
+.step-description {
+    color: #585856;
+    font-size: 20px;
+}

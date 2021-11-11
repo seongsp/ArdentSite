@@ -1,3 +1,29 @@
-.App {
-  text-align: center;
+@font-face
+{
+    font-family: "DIN Next Light";
+    src: url("assets/fonts/dinLight.woff") format("woff");
+}
+
+@font-face
+{
+    font-family: "Avenir LT Light";
+    src: url("assets/fonts/avenirLt35Light.woff") format("woff");
+}
+
+@font-face
+{
+    font-family: "Avenir LT Heavy";
+    src: url("assets/fonts/avenirLt85Heavy.woff") format("woff");
+}
+
+@font-face
+{
+    font-family: "Neue Helvetica Light";
+    src: url("assets/fonts/neueHelvetica45Light.woff") format("woff");
+}
+
+@font-face
+{
+    font-family: "Helvetica Roman";
+    src: url("assets/fonts/helveticaRoman.woff") format("woff");
 }

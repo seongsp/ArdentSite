@@ -1,0 +1,10 @@
+#announcement-section {
+    font-family: "Avenir LT Light", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#se-intern-link {
+    text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+#purpose-section {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.step-items {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.step-item {
+    width: 300px;
+    margin: 0 40px;
+}
+
+.title {
+    color: #646666;
+    font-family: "DIN Next Light", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    padding-left: 140px;
+    font-weight: lighter;
+    position: relative;
+    right: 360px;
+}
+
+.video-container {
+    width: 65%;
+    margin: auto;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,11 @@
+#slideshow-section {
+    outline: none;
+    width: 410px !important;
+    height: 550px !important;
+    margin-right: 0;
+    margin-left: auto;
+    position: absolute !important;
+    right: calc((100% - 950px) * 0.5);
+    bottom: 450px;
+    z-index: 2;
+}
