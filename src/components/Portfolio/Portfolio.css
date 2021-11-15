@@ -1,0 +1,9 @@
+.portfolio-section {
+    background-color: white;
+    padding: 50px;
+}
+
+.project-row {
+    display: flex;
+    justify-content: center;
+}
