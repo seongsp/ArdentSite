@@ -1,0 +1,25 @@
+.detail-object {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.detail-image {
+    height: 220px !important;
+    margin-right: 120px;
+}
+
+.detail-words {
+    text-align: left;
+    width: 500px;
+}
+
+.detail-title {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.detail-description {
+    font-size: 20px;
+}

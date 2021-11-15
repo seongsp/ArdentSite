@@ -27,3 +27,14 @@
     font-family: "Helvetica Roman";
     src: url("assets/fonts/helveticaRoman.woff") format("woff");
 }
+
+.title {
+    color: #646666;
+    font-family: "DIN Next Light", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    padding-left: 140px;
+    font-weight: lighter;
+    position: relative;
+    right: 360px;
+}

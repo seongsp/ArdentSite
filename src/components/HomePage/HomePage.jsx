@@ -2,6 +2,7 @@ import React from 'react';
 import './HomePage.css';
 import Banner from "../Banner/Banner"
 import Purpose from '../Purpose/Purpose';
+import About from '../About/About';
 
 function HomePage() {
     return (
@@ -12,7 +13,7 @@ function HomePage() {
 
             <main id="homepage-content">
                 <Purpose />
-                
+                <About />
                 
             </main>
 
