@@ -10,11 +10,16 @@ function Connect() {
             <hr className="contact-line" />
             <h2 className="contact-item-title">CONNECT</h2>
             <div className="social-items">
-                <img src={linkedIn} alt="linkedIn" className="social-icon" />
-                <img src={facebook} alt="linkedIn" className="social-icon" />
-                <img src={twitter} alt="linkedIn" className="social-icon" />
+                <a href="https://www.linkedin.com/company/ardentlabs/mycompany/" target="_blank" rel="noreferrer noopener">
+                    <img src={linkedIn} alt="linkedIn" className="social-icon" />
+                </a>
+                <a href="https://www.facebook.com/ArdentLabs.io" target="_blank" rel="noreferrer noopener">
+                    <img src={facebook} alt="linkedIn" className="social-icon" />
+                </a>
+                <a href="https://twitter.com/ArdentLabsNews" target="_blank" rel="noreferrer noopener">
+                    <img src={twitter} alt="linkedIn" className="social-icon" />
+                </a>
             </div>
-
         </div>
     )
 }

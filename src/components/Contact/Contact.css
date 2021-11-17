@@ -6,6 +6,10 @@
     border: none;
 }
 
+#contact-section > * {
+    margin-right: 10px;
+}
+
 .contact-line {
     margin: 0 0 10px 0;
     color: #fff;
@@ -31,4 +35,9 @@
     font-weight: lighter;
     margin-top: 15px !important;
     margin-bottom: 20px !important;
+}
+
+#ardentlogo-img {
+    position: relative;
+    bottom: 30px;
 }
