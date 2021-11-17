@@ -4,7 +4,8 @@ import Background from "./components/Background/Background";
 import NavBar from './components/NavBar/NavBar';
 import HomePage from './components/HomePage/HomePage';
 import SoftwareInternPage from './components/SoftwareInternPage/SoftwareInternPage';
-
+import Contact from './components/Contact/Contact';
+import Credit from './components/Credit/Credit';
 import './App.css';
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
             <Route exact path="software-engineering-remote-interns" element={<SoftwareInternPage/>} />
             <Route exact path="/" element={<HomePage/>} />
         </Routes>
+        <div id="footer-section">
+            <Contact />
+            <Credit />   
+        </div>
     </div>
   );
 }

@@ -1,10 +1,9 @@
 import React from 'react';
 import Carousel from 'nuka-carousel';
-import './SlideShow.css';
-
 import slideshow1 from '../../assets/img/slideshow1.jpg'
 import slideshow2 from '../../assets/img/slideshow2.jpg'
 import slideshow3 from '../../assets/img/slideshow3.jpg'
+import './SlideShow.css';
 
 const attributes = {
     autoplay: true,

@@ -21,19 +21,6 @@
 
 #navbar-links > * {
     margin-left: 20px;
-    transition: color 0.2s;
-}
-
-#navbar-links > *:hover {
-    color: #A2ECF3;
-}
-
-.link-active {
-    color: #A2ECF3;
-}
-
-.link {
-
 }
 
 .dropdown {

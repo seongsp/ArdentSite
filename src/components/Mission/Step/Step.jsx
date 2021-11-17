@@ -5,10 +5,10 @@ function Step(props) {
     const {id, title, description} = props;
     return (
         <div className="step">
-            <h1 className="step-id">{id}</h1>
+            <h1 className="step-id grey-2">{id}</h1>
             <hr className="step-line"/>
-            <h2 className="step-title">{title}</h2>
-            <p className="step-description">{description}</p>
+            <h3 className="size-36 blue-2 step-title">{title}</h3>
+            <p className="size-18 grey-1">{description}</p>
         </div>
     )
 }

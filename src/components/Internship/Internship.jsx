@@ -1,7 +1,7 @@
 import React from 'react';
+import Job from './Job/Job';
 import EmailForm from '../EmailForm/EmailForm';
 import './Internship.css';
-import Job from './Job/Job';
 
 const jobs = [
     {
@@ -21,7 +21,7 @@ const jobs = [
 function Internship() {
     return (
         <div id="internship-section">
-           <h1 className="title">INTERNSHIPS</h1>
+           <h1 className="title grey-1">INTERNSHIPS</h1>
            <div className="jobs">
             {
                 jobs.map((job, idx) => (
@@ -32,7 +32,7 @@ function Internship() {
                 ))
             }
                 <div className="internship-contact-section">
-                    <p className="intern-question">
+                    <p className="intern-question size-24 blue-1">
                         Are you interested in developing a career and getting jobs at leading tech companies? Send us a short message and we will contact you shortly.
                     </p>
                     <EmailForm />

@@ -1,9 +1,9 @@
-import React from 'react'
-import './Contact.css'
-import ardentLabsLogo from '../../assets/img/ardentLabsLogo.webp'
-import QuickLinks from './QuickLinks/QuickLinks'
-import ContactUs from './ContactUs/ContactUs'
-import Connect from './Connect/Connect'
+import React from 'react';
+import QuickLinks from './QuickLinks/QuickLinks';
+import ContactUs from './ContactUs/ContactUs';
+import Connect from './Connect/Connect';
+import ardentLabsLogo from '../../assets/img/ardentLabsLogo.webp';
+import './Contact.css';
 
 function Contact() {
     return (

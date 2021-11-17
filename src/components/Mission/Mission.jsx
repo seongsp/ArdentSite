@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import Step from './Step/Step';
-import './Mission.css';
+import React from 'react';
 import ReactPlayer from 'react-player'
+import Step from './Step/Step';
 import demo from '../../assets/vid/demo.mp4';
+import './Mission.css';
 
 const steps = [
     {
@@ -23,14 +23,13 @@ const steps = [
 ]
 
 function Mission() {
-
     return (
         <div id="mission-section">
-            <h1 className="title">WHAT WE DO</h1>
+            <h1 className="title grey-1">WHAT WE DO</h1>
             <div className="step-items">
-                    {steps.map( (step) => 
-                        <div key={step.id} className="step-item"><Step {...step} /></div>
-                    )}
+                {steps.map((step) => 
+                    <div key={step.id} className="step-item"><Step {...step} /></div>
+                )}
             </div>
             <div className="video-container">
                 <ReactPlayer

@@ -1,0 +1,10 @@
+#credit-section {
+    background-color: white;
+    color: rgb(0,210,212);
+    padding: 20px 0 20px 0;
+}
+
+#copyright {
+    position: relative;
+    right: 150px;
+}

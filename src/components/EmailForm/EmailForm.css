@@ -6,13 +6,12 @@
 .email-input {
     font-size: 15px;
     padding: 0px 10px;
+    margin: 3px;
     height: 35px;
     width: 100%;
-    margin: 3px;
     border-style: solid;
     border-width: 3px;
     border-color: black;
-    font-family: "DIN Next Light", sans-serif !important;
 }
 
 .email-input:hover {
@@ -20,11 +19,14 @@
     border-color: #7dcece;
 }
 
+.email-input:focus {
+    background-color: #caeff0;
+}
 
 .emailtext-input {
     padding: 10px 10px;
-    height: 150px;
     margin: 3px;
+    height: 150px;
     width: 100%;
     border-width: 3px;
     border-style: solid;
@@ -39,8 +41,11 @@
     border-color: #7dcece;
 }
 
+.emailtext-input:focus {
+    background-color: #caeff0;
+}
+
 .submit-btn {
-    color: #86adbd;
     position: relative;
     left: 35px;
     cursor: pointer;
@@ -48,8 +53,4 @@
     border: none;
     float: right;
     transition-duration: 0.2s;
-}
-
-.submit-btn:hover {
-    color: #7dcece;
 }

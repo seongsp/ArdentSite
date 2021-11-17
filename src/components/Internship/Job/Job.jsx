@@ -6,8 +6,8 @@ function Job(props) {
 
     return (
         <div className="job-object">
-            <h2 className="job-title grey-text">{title}</h2>
-            <p className="job-description">{description}</p>
+            <h2 className="size-24 grey-1">{title}</h2>
+            <p className="size-18 grey-1">{description}</p>
         </div>
     )
 }

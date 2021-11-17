@@ -10,6 +10,11 @@
     margin-right: 10px;
 }
 
+#ardentlogo-img {
+    position: relative;
+    bottom: 30px;
+}
+
 .contact-line {
     margin: 0 0 10px 0;
     color: #fff;
@@ -31,13 +36,7 @@
 }
 
 .contact-item-title {
-    font-size: 25px;
     font-weight: lighter;
     margin-top: 15px !important;
     margin-bottom: 20px !important;
-}
-
-#ardentlogo-img {
-    position: relative;
-    bottom: 30px;
 }

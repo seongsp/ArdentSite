@@ -1,12 +1,9 @@
 import React from 'react';
-
-
 import ourStory from '../../assets/img/ourStory.svg';
 import ourVision from '../../assets/img/ourVision.svg';
 import technology from '../../assets/img/technology.svg';
-
-import './About.css';
 import Detail from './Detail/Detail';
+import './About.css';
 
 const details = [
     {
@@ -29,7 +26,7 @@ const details = [
 function About() {
     return (
         <div id="about-section">
-            <h1 className="title white-text">WHO WE ARE</h1>
+            <h1 className="title">WHO WE ARE</h1>
             {
                 details.map((detail, idx) => (
                     <Detail

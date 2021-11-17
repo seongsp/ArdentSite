@@ -1,8 +1,8 @@
-import React from 'react'
-import './Connect.css'
-import linkedIn from '../../../assets/img/linkedIn.png'
-import facebook from '../../../assets/img/facebook.png'
-import twitter from '../../../assets/img/twitter.png'
+import React from 'react';
+import linkedIn from '../../../assets/img/linkedIn.png';
+import facebook from '../../../assets/img/facebook.png';
+import twitter from '../../../assets/img/twitter.png';
+import './Connect.css';
 
 function Connect() {
     return (
