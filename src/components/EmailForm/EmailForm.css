@@ -4,6 +4,7 @@
 }
 
 .email-input {
+    font-size: 15px;
     padding: 0px 10px;
     height: 35px;
     width: 100%;
@@ -11,6 +12,7 @@
     border-style: solid;
     border-width: 3px;
     border-color: black;
+    font-family: "DIN Next Light", sans-serif !important;
 }
 
 .email-input:hover {
@@ -27,9 +29,26 @@
     border-width: 3px;
     border-style: solid;
     border-color: black;
+    font-family: "DIN Next Light", sans-serif !important;
+    font-size: 15px;
 }
 
 .emailtext-input:hover {
     background-color: #Ccccca;
     border-color: #7dcece;
+}
+
+.submit-btn {
+    color: #86adbd;
+    position: relative;
+    left: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    float: right;
+    transition-duration: 0.2s;
+}
+
+.submit-btn:hover {
+    color: #7dcece;
 }
