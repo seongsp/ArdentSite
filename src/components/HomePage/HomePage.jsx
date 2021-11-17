@@ -5,6 +5,7 @@ import Purpose from '../Purpose/Purpose';
 import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
 import Internship from '../Internship/Internship';
+import Contact from './../Contact/Contact';
 
 function HomePage() {
     return (
@@ -19,6 +20,11 @@ function HomePage() {
                 <Portfolio />
                 <Internship />
             </main>
+
+            <div id="footer-section">
+                <Contact />
+                
+            </div>
 
         </div>
     );
