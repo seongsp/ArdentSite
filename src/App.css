@@ -28,12 +28,17 @@
     src: url("assets/fonts/helveticaRoman.woff") format("woff");
 }
 
+html {
+    min-height: 100vh;
+}
+
 body {
     padding: 0;
     margin: 0;
     font-family: "DIN Next Light", sans-serif;
     color: white;
     text-align: center;
+    min-height: 100vh !important;
 }
 
 p {
@@ -43,6 +48,18 @@ p {
 a {
     color: white;
     text-decoration: none;
+}
+
+#header {
+    height: 166px;
+}
+
+#main-content {
+    min-height: calc(100vh - 566px); /* 166px header + 400px footer = 566px  */
+}
+
+#footer {
+    height: 400px;
 }
 
 .title {

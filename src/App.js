@@ -10,18 +10,24 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <div id="app">
         <Background />
-        <NavBar />
-        <Routes>
-            <Route exact path="software-engineering-remote-interns" element={<SoftwareInternPage/>} />
-            <Route exact path="/" element={<HomePage/>} />
-        </Routes>
-        <div id="footer-section">
+        <div id="header">
+            <NavBar />
+        </div>
+        <main id="main-content">
+            <Routes>
+                <Route exact path="software-engineering-remote-interns" element={<SoftwareInternPage/>} />
+                <Route exact path="/" element={<HomePage/>} />
+            </Routes>
+        </main>
+        <div id="footer">
             <Contact />
             <Credit />   
         </div>
     </div>
+    </>
   );
 }
 
