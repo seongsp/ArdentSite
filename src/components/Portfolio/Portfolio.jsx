@@ -36,7 +36,7 @@ const projectRow2 = [
 
 function Portfolio() {
     return (
-        <div className="portfolio-section">
+        <div id="portfolio-section">
             <h1 className="title">PORTFOLIO</h1>
             <div className="project-row">
                 {

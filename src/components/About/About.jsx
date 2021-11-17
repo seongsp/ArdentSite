@@ -28,7 +28,7 @@ const details = [
 
 function About() {
     return (
-        <div className="about-section">
+        <div id="about-section">
             <h1 className="title white-text">WHO WE ARE</h1>
             {
                 details.map((detail, idx) => (

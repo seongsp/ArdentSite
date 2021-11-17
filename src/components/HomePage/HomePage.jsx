@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import Banner from "../Banner/Banner"
-import Purpose from '../Purpose/Purpose';
+import Mission from '../Mission/Mission';
 import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
 import Internship from '../Internship/Internship';
@@ -15,7 +15,7 @@ function HomePage() {
             </div>
 
             <main id="homepage-content">
-                <Purpose />
+                <Mission />
                 <About />
                 <Portfolio />
                 <Internship />

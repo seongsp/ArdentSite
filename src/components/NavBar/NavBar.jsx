@@ -24,7 +24,7 @@ function NavBar() {
                     <span>More...</span>
                     <div className="dropdown-content">
                         <div className="dropdown-link">
-                            <HashLink smooth to="/#internships-section">Internships</HashLink>
+                            <HashLink smooth to="/#internship-section">Internships</HashLink>
                         </div>
                         <div className="dropdown-link">
                             <HashLink smooth to="/#contact-section">Contact</HashLink>

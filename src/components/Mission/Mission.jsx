@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Step from './Step/Step';
-import './Purpose.css';
+import './Mission.css';
 import ReactPlayer from 'react-player'
 import demo from '../../assets/vid/demo.mp4';
 
@@ -22,10 +22,10 @@ const steps = [
     }
 ]
 
-function Purpose() {
+function Mission() {
 
     return (
-        <div id="purpose-section">
+        <div id="mission-section">
             <h1 className="title">WHAT WE DO</h1>
             <div className="step-items">
                     {steps.map( (step) => 
@@ -45,4 +45,4 @@ function Purpose() {
     );
 }
 
-export default Purpose;
+export default Mission;

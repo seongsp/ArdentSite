@@ -20,7 +20,7 @@ const jobs = [
 
 function Internship() {
     return (
-        <div className="internship-section">
+        <div id="internship-section">
            <h1 className="title">INTERNSHIPS</h1>
            <div className="jobs">
             {
