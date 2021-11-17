@@ -7,7 +7,9 @@ function ContactUs() {
             <hr className="contact-line" />
             <h2 className="contact-item-title size-24">CONTACT US</h2>
             <div className="contactus-part">
-                <p className="contact-detail size-18">learn@ardentlbs.io</p>
+                <a href="mailto:learn@ardentlbs.io">
+                    <p className="contact-detail size-18">learn@ardentlbs.io</p>
+                </a>
                 <p className="contact-detail size-18">949.496.1688</p>
             </div>
             <div className="contactus-part">
