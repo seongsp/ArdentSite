@@ -37,4 +37,18 @@
     font-weight: lighter;
     position: relative;
     right: 360px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #585856;
+    font-size: 20px;
+}
+
+.white-text {
+    color: white;
+}
+
+.grey-text {
+    color: #585856;
 }

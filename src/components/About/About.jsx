@@ -29,7 +29,7 @@ const details = [
 function About() {
     return (
         <div className="about-section">
-            <h1 className="title about-title">WHO WE ARE</h1>
+            <h1 className="title white-text">WHO WE ARE</h1>
             {
                 details.map((detail, idx) => (
                     <Detail

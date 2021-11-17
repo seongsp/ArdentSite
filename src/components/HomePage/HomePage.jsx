@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner"
 import Purpose from '../Purpose/Purpose';
 import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
+import Internship from '../Internship/Internship';
 
 function HomePage() {
     return (
@@ -16,6 +17,7 @@ function HomePage() {
                 <Purpose />
                 <About />
                 <Portfolio />
+                <Internship />
             </main>
 
         </div>

@@ -1,0 +1,36 @@
+.internship-section {
+    background-color: rgb(239, 239, 239);
+    padding: 50px 0;
+    margin: auto;
+}
+
+.jobs {
+    margin: auto;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.internship-contact-section {
+    display: flex;
+}
+
+
+.intern-question {
+    font-size: 23px;
+    color: #0099FF;
+    max-width: 400px;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      transform: translateX(-20%);
+      opacity: 0%;
+    }
+  
+    to {
+      transform: translateX(0%);
+      opacity: 100%;
+    }
+}
