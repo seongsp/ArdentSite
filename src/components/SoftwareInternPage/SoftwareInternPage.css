@@ -1,6 +1,7 @@
 .se-page-line {
+    background-color: white;
     color: white;
-    width: 200px;
-    height: 5px;
+    width: 270px;
+    height: 4px;
     border: none;
 }

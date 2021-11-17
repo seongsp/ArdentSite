@@ -1,0 +1,12 @@
+#SEAnnouncement-section {
+    text-align: left;
+}
+
+#SEAnnouncement-main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#SEAnnouncement-main > * {
+    margin-bottom: 75px;
+}
