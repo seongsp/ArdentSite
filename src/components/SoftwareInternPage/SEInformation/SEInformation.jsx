@@ -13,6 +13,7 @@ import Alvin from '../../../assets/img/alvin.png';
 import Kuixi from '../../../assets/img/kuixi.png';
 import Info from './Info/Info';
 import Mentor from './Mentor/Mentor';
+import YearRound from '../YearRound/YearRound';
 
 const infos = [
   {
@@ -140,6 +141,7 @@ function SEInformation() {
           <Mentor key={idx} {...mentor} />
         ))}
       </div>
+      <YearRound />
     </div>
   );
 }
