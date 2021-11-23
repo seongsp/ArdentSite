@@ -70,6 +70,13 @@ a {
     margin: 0 0 0 calc(100% - 70vw);
 }
 
+.title-se {
+    font-family: "DIN Next Light", sans-serif;
+    font-weight: lighter;
+    font-size: 88px;
+    text-align: left;
+}
+
 /* Sizes */
 
 .size-58 {
