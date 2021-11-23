@@ -1,0 +1,13 @@
+.info-box {
+    display: flex;
+    align-items: center;
+}
+
+.info-box img {
+    height: 60px;
+    margin: 10px;
+}
+
+.info-desc {
+    text-align: left;
+}

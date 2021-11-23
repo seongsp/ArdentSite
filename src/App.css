@@ -70,13 +70,6 @@ a {
     margin: 0 0 0 calc(100% - 70vw);
 }
 
-.title-se {
-    font-family: "DIN Next Light", sans-serif;
-    font-weight: lighter;
-    font-size: 88px;
-    text-align: left;
-}
-
 /* Sizes */
 
 .size-58 {
@@ -89,6 +82,10 @@ a {
 
 .size-36 {
     font-size: 36px;
+}
+
+.size-32 {
+    font-size: 32px;
 }
 
 .size-24 {
@@ -127,6 +124,12 @@ a {
 
 .blue-2 {
     color: #3bb1ff;
+}
+
+/* Styles */
+
+.italic {
+    font-style: italic;
 }
 
 /* Links */

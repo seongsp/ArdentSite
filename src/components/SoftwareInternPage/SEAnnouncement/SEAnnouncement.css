@@ -8,3 +8,11 @@
 #SEAnnouncement-main > * {
     margin-bottom: 75px;
 }
+
+
+.title-se {
+    font-family: "DIN Next Light", sans-serif;
+    font-weight: lighter;
+    font-size: 88px;
+    text-align: left;
+}

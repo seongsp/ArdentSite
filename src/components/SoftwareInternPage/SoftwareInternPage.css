@@ -7,7 +7,7 @@
 }
 
 #software-intern-page {
-    margin: 0 60vh;
+    margin: 0 calc((100% - 980px) * 0.5);
 }
 
 .title-se {
@@ -15,4 +15,8 @@
     font-weight: lighter;
     font-size: 88px;
     text-align: left;
+}
+
+.a-link {
+    text-decoration: underline;
 }

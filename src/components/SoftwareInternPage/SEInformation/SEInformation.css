@@ -1,26 +1,8 @@
-.info {
+#mentor-list {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
-.info-box {
-
-}
-
-.info-heading {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-}
-
-.info-heading img {
-    height: 60px;
-    margin: 10px;
-}
-
-.info-desc {
-    text-align: left;
+#SEInformation {
+    padding: 50px;
 }
