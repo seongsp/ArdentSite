@@ -1,6 +1,6 @@
 {
-  "homepage": "https://seongsp.github.io/ardent-site/",
-  "name": "ardent-site",
+    "name": "ardent-site",
+  "homepage": "http://seongsp.github.io/ardent-site/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
