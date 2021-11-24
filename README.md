@@ -1,6 +1,6 @@
 # [View Here](https://seongsp.github.io/ardent-site/)
 
-This is my first React project where I tried to clone [ardentlabs.io](ardentlabs.io). It is one of the required milestones that all interns must complete to continue. I recommend viewing this site on a computer because it is not mobile responsive.
+This is my first React project where I tried to clone [ardentlabs.io](https://www.ardentlabs.io/). It is one of the required milestones that all interns must complete to continue. I recommend viewing this site on a computer because it is not mobile responsive.
 
 ## Getting Started
 
