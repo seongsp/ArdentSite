@@ -1,0 +1,30 @@
+#scroller
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    width: 30px;
+    height: 200px;
+    position: fixed;
+    left: 93%;
+    top: 50%;
+    margin-right: 80px;
+}
+
+#scroller a
+{
+    border-color: rgb(162, 236, 243);
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 10px;
+    height: 10px;
+}
+
+#scroller a:hover, #scroller .active
+{
+    background-color: rgb(162, 236, 243);
+}
